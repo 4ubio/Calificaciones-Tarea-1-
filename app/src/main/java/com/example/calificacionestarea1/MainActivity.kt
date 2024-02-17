@@ -54,15 +54,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-fun checkWroteNumber(text: String): Double {
-    if (text.toIntOrNull() != null) {
-        return text.toDouble()
-    } else if (TextUtils.isEmpty(text)) {
-        return 0.0
-    }
-    return 1.0
-}
-
 fun getQuote(average: Double): String {
     if (average < 7.0) {
         return "El alumno repetirá el semestre."
