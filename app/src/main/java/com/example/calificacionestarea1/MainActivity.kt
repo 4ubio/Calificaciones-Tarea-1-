@@ -56,11 +56,11 @@ class MainActivity : ComponentActivity() {
 
 fun getQuote(average: Double): String {
     if (average < 7.0) {
-        return "El alumno repetirá el semestre."
+        return "El alumno repetirá el semestre. 🙁"
     } else if (average < 8.5) {
-        return "Has perdido 5% de beca."
+        return "Has perdido 5% de beca. 👎🏽"
     } else {
-        return "¡Felicidades, eres un estudiante de honor!"
+        return "¡Felicidades, eres un estudiante de honor! 🎉"
     }
     return ""
 }
